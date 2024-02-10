@@ -3,7 +3,12 @@ What different packet stuff seems to be.
 
 
 ## Packet sizes
-- 1 - UI related
+- 1 - Game lobby packet handler
+  - Asking the host client to start game
+  - Something called ready up reject
+  - Undoing a ready up
+  - Allowing lobby owner to force back to ability select
+  - Handling player suggesting back to ability select
 - 2 - Lobby init packet
 - 3 - Syncs some lobby data like...
   - Player color
