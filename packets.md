@@ -3,5 +3,6 @@ What different packet stuff seems to be.
 
 
 ## Packet sizes
-Size 1 = UI related
-Size 2 = Game init related
+1. UI related
+2. Game init related
+3. ???
