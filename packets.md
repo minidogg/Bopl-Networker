@@ -16,3 +16,4 @@ What different packet stuff seems to be.
   - Player team
   - Player ready
 - 4 - Seems to be from when a person readies up. This also appears to sync their abilities to everyone else.
+   - Nothing preventing you from changing abilities mid game it appears.
