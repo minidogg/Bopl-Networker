@@ -9,4 +9,4 @@ What different packet stuff seems to be.
   - Player color
   - Player team
   - Player ready
-- 105 - Related to force starting game
+- 105 - Allows owner to force start game even if not everyone is in.
