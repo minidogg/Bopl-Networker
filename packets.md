@@ -17,3 +17,6 @@ What different packet stuff seems to be.
   - Player ready
 - 4 - Seems to be from when a person readies up. This also appears to sync their abilities to everyone else.
    - Nothing preventing you from changing abilities mid game it appears.
+- 14 - Appears to do a lot of stuff related to syncing
+   - Makes sure a player color is only used once.
+   - Syncs pretty much every option in the ability select.
