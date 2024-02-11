@@ -22,4 +22,4 @@ What different packet stuff seems to be.
    - Syncs pretty much every option in the ability select.
 - 2 - Lobby init packet
    - Really short which makes it hard to understand anything else about it
-
+- 6 - ???
