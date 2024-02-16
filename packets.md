@@ -21,7 +21,6 @@ What different packet stuff seems to be.
    - Makes sure a player's color is only used once.
    - Syncs pretty much every option in the ability select.
 - 2 - Lobby init packet
-   - Really short which makes it hard to understand anything else about it
-- 6 - Ping/ACK
-   - Seems to get ping
-   - Sends an ACK
+   - The first byte is the number of abilities and the second byte is a buffer byte to distinguish it from the first packet size
+- 6 - ACK
+   - Sent every frame either to the clients either to ping or acknowledge a sent ping (5 for ping and 6 for a ping acknowledgement)
