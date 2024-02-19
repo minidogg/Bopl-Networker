@@ -8,6 +8,29 @@
 * The first ability value is the leftmost in game, the second ability value is rightmost in game, and the third ability value is in the middle in game
 
 quick ability table
+| Hex value | Name of ability | Notes |
+| --------- | --------------- | ----- |
+| 0x00 | Null | none of your abilities, even with valid id's, show up |
+| 0x01 | Roll | Slight anomaly, roll is in value 10 and 01 |
+| 0x02 | Dash | |
+| 0x03 | Grenade | |
+| 0x04 | Bow | |
+| 0x05 | Engine | |
+| 0x06 | Blink | |
+| 0x07 | Gust | |
+| 0x08 | Growth ray| |
+| 0x09 | Rock | |
+| 0x0A | Missile | |
+| 0x0B | Sword | |
+| 0x0C | Time stop | |
+| 0x0D | Smoke | |
+| 0x0E | Platform | |
+| 0x0F | Revive | |
+| 0x10 | Roll | Slight anomaly, roll is in value 10 and 01 |
+| 0x11 | Shrink ray | |
+| 0x12 | Black hole | |
+| 0x13 | Invisibility | |
+| 0x14 | Meteor | |
 ```
 00 = none of your abilities, even with valid id's, show up
 01 = roll - slight anomaly, roll is in value 10 and 01
@@ -24,7 +47,7 @@ quick ability table
 0C = time stop
 0D = smoke
 0E = platform
-0F =  revive
+0F = revive
 10 = roll - slight anomaly, roll is in value 10 and 01
 11 = shrink
 12 = black hole
