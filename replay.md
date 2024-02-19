@@ -31,6 +31,15 @@ quick ability table
 | 0x12 | Black hole | |
 | 0x13 | Invisibility | |
 | 0x14 | Meteor | |
+| 0x15 | Macho | |
+| 0x16 | Push | |
+| 0x17 | Tesla coil | |
+| 0x18 | Mine | |
+| 0x19 | Teleport | |
+| 0x1A | Drill | |
+
+
+| 0x1 | | |
 ```
 00 = none of your abilities, even with valid id's, show up
 01 = roll - slight anomaly, roll is in value 10 and 01
