@@ -1,3 +1,5 @@
-## information about replay files
+# information about replay files
 
-Header is 105, or 0x69, bytes long.
+## Header
+
+the header is a fixed 105, or 0x69, bytes long.
