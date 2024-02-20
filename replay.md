@@ -10,7 +10,7 @@
 quick ability table
 | Hex value | Name of ability | Notes |
 | --------- | --------------- | ----- |
-| 0x00 | Null | none of your abilities, even with valid id's, show up |
+| 0x00 | Null | None of your abilities, even with valid id's, show up |
 | 0x01 | Roll | Slight anomaly, roll is in value 10 and 01 |
 | 0x02 | Dash | |
 | 0x03 | Grenade | |
@@ -37,6 +37,8 @@ quick ability table
 | 0x18 | Mine | |
 | 0x19 | Teleport | |
 | 0x1A | Drill | |
+| 0x1B | Grapple | |
+| 0x1C - 0xFF | None | Index out of range error in BepInEx console. |
 
 
 | 0x1 | | |
