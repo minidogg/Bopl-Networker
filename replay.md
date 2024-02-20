@@ -13,10 +13,10 @@
 | 0x6 | Controls number of players | |
 | 0x7 | Number of abilities | |
 | 0x2B | Index of Player 1's color | |
-| 0x33 - 0x35 | Player 1's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/edit/main/replay.md#abilities) |
-| 0x36 - 0x38 | Player 2's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/edit/main/replay.md#abilities) |
-| 0x39 - 0x3B | Player 3's abilities | Not currently proven, just an assumtption based on the first two. See the mapping [here](https://github.com/minidogg/Bopl-Networker/edit/main/replay.md#abilities) |
-| 0x3C - 0x3E | Player 4's abilities | Not currently proven, just an assumtption based on the first two. See the mapping [here](https://github.com/minidogg/Bopl-Networker/edit/main/replay.md#abilities) |
+| 0x33 - 0x35 | Player 1's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/blob/main/replay.md#abilities) |
+| 0x36 - 0x38 | Player 2's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/blob/main/replay.md#abilities) |
+| 0x39 - 0x3B | Player 3's abilities | Not currently proven, just an assumtption based on the first two. See the mapping [here](https://github.com/minidogg/Bopl-Networker/blob/main/replay.md#abilities) |
+| 0x3C - 0x3E | Player 4's abilities | Not currently proven, just an assumtption based on the first two. See the mapping [here](https://github.com/minidogg/Bopl-Networker/blob/main/replay.md#abilities) |
 
 | 0x | | |
 
