@@ -4,10 +4,33 @@
 
 * The header is a fixed 105, or 0x69, bytes long.
 
-* Abilities stored for player one take up 0x33-0x35
-* The first ability value is the leftmost in game, the second ability value is rightmost in game, and the third ability value is in the middle in game
 
-quick ability table
+
+
+
+| Byte positions | What they do | Notes |
+| -------------- | ------------ | ----- |
+| 0x6 | Controls number of players | |
+| 0x7 | Number of abilities | |
+| 0x2B | Index of Player 1's color | |
+| 0x33 - 0x35 | Player 1's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/edit/main/replay.md#abilities) |
+| 0x36 - 0x38 | Player 2's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/edit/main/replay.md#abilities) |
+| 0x39 - 0x3B | Player 3's abilities | Not currently proven, just an assumtption based on the first two. See the mapping [here](https://github.com/minidogg/Bopl-Networker/edit/main/replay.md#abilities) |
+| 0x3C - 0x3E | Player 4's abilities | Not currently proven, just an assumtption based on the first two. See the mapping [here](https://github.com/minidogg/Bopl-Networker/edit/main/replay.md#abilities) |
+
+| 0x | | |
+
+
+
+
+
+
+
+
+
+### Abilities
+
+
 | Hex value | Name of ability | Notes |
 | --------- | --------------- | ----- |
 | 0x00 | Null | None of your abilities, even with valid id's, show up |
@@ -41,18 +64,6 @@ quick ability table
 | 0x1C - 0xFF | None | Index out of range error in BepInEx console. |
 
 
-
-| Byte positions | What they do | Notes |
-| -------------- | ------------ | ----- |
-| 0x6 | Controls number of players | |
-| 0x7 | Number of abilities | |
-| 0x2B | Index of Player 1's color | |
-| 0x33 - 0x35 | Player 1's abilities | |
-| 0x36 - 0x38 | Player 2's abilities | |
-| 0x39 - 0x3B | Player 3's abilities | Not currently proven, just an assumtption based on the first two |
-| 0x3C - 0x3E | Player 4's abilities | Not currently proven, just an assumtption based on the first two |
-
-| 0x | | |
 ```
 00 = none of your abilities, even with valid id's, show up
 01 = roll - slight anomaly, roll is in value 10 and 01
