@@ -41,7 +41,18 @@ quick ability table
 | 0x1C - 0xFF | None | Index out of range error in BepInEx console. |
 
 
-| 0x1 | | |
+
+| Byte positions | What they do | Notes |
+| -------------- | ------------ | ----- |
+| 0x6 | Controls number of players | |
+| 0x7 | Number of abilities | |
+| 0x2B | Index of Player 1's color | |
+| 0x33 - 0x35 | Player 1's abilities | |
+| 0x36 - 0x38 | Player 2's abilities | |
+| 0x39 - 0x3B | Player 3's abilities | Not currently proven, just an assumtption based on the first two |
+| 0x3C - 0x3E | Player 4's abilities | Not currently proven, just an assumtption based on the first two |
+
+| 0x | | |
 ```
 00 = none of your abilities, even with valid id's, show up
 01 = roll - slight anomaly, roll is in value 10 and 01
