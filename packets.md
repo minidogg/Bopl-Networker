@@ -5,6 +5,7 @@ What different packet stuff seems to be.
 ## Packet sizes
 - 105 - Game start packet
   - Sent by the host to start the game.
+    - This also decides the next level
   - Syncs all of the teams, abilities, and colors (the reason why it's so big)
 - 1 - Game lobby packet handler
   - Asking the host client to start the game
