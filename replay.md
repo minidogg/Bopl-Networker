@@ -10,8 +10,10 @@
 
 | Byte positions | What they do | Notes |
 | -------------- | ------------ | ----- |
+| 0x3 - 0x5 | Possibly relates to a random seed | Theory - unproven
 | 0x6 | Controls number of players | |
 | 0x7 | Number of abilities | |
+| 0x8 | Level ID | Starts at 00 |
 | 0x2B | Index of Player 1's color | |
 | 0x33 - 0x35 | Player 1's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/blob/main/replay.md#abilities) |
 | 0x36 - 0x38 | Player 2's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/blob/main/replay.md#abilities) |
@@ -34,7 +36,7 @@
 | Hex value | Name of ability | Notes |
 | --------- | --------------- | ----- |
 | 0x00 | Null | None of your abilities, even with valid id's, show up |
-| 0x01 | Roll | Slight anomaly, roll is in value 10 and 01 |
+| 0x01 | Random | Random ability |
 | 0x02 | Dash | |
 | 0x03 | Grenade | |
 | 0x04 | Bow | |
