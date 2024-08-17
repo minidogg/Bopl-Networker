@@ -10,10 +10,15 @@
 
 | Byte positions | What they do | Notes |
 | -------------- | ------------ | ----- |
-| 0x3 - 0x5 | Possibly relates to a random seed | Theory - unproven
+| 0x1 - 0x2 | seqNum | idk
+| 0x3 - 0x5 | random seed | confermed
 | 0x6 | Controls number of players | |
 | 0x7 | Number of abilities | |
 | 0x8 | Level ID | Starts at 00 |
+| 0x11-0x14 | player 1s steam id | yes the replays store your steam id
+| 0x15-0x18 | player 2s steam id | yes the replays store your steam id
+| 0x19-0x22 | player 3s steam id | yes the replays store your steam id
+| 0x27-0x14 | player 4s steam id | yes the replays store your steam id
 | 0x2B | Index of Player 1's color | |
 | 0x33 - 0x35 | Player 1's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/blob/main/replay.md#abilities) |
 | 0x36 - 0x38 | Player 2's abilities | See the mapping [here](https://github.com/minidogg/Bopl-Networker/blob/main/replay.md#abilities) |
